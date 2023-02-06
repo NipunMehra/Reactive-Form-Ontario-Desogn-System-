@@ -1,0 +1,57 @@
+{
+    "header":{
+        "menu": "Menu",
+        "search": "Chercher"
+    },
+    "reactiveForm":{
+        "title": "Cas #101 Formulaire d'inscription",
+        "required": "(obligatoire)",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "email": "Adresse e-mail",
+        "street1":"Adresse 1",
+        "st1":"Rue et numéro ou P.O. boîte.",
+        "st2":"Appartement, suite, unité, immeuble, etc.",
+        "street2":"Adresse 2",
+        "optional":"(optionnel)",
+        "city": "Ville",
+        "province":"Province",
+        "postalCode": "Code postal",
+        "button": {
+            "submit": "Nous faire parvenir"
+        }
+    },
+    "requirements":{
+        "required": "obligatoire",
+        "optional": "optionnelle"
+    },
+    "errors":{
+        "firstName":{
+            "required":"Le prénom est requis."
+        },
+        "lastName":{
+            "required":"Le nom de famille est requis."
+        },
+        "email":{
+            "valid":"S'il vous plaît, mettez une adresse email valide."
+        },
+        "street1":{
+            "required":"Les adders de rue sont obligatoires."
+        },
+        "city":{
+            "required":"La ville est obligatoire."
+        },
+        "province":{
+            "required":"Veuillez sélectionner votre province."
+        },
+        "postalCode":{
+            "format":"Le code postal doit être au format \"XXXXXX\"."
+        }
+    },
+    "footer":{
+        "accessibility": "Accessibilité",
+        "privacy": "Confidentialité",
+        "contactUs": "Nous contacter",
+        "text": "Imprimeur du Roi pour l'Ontario,"
+    }
+}

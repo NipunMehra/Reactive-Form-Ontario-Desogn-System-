@@ -1,0 +1,54 @@
+{
+    "header":{
+        "menu": "Menu",
+        "search":"Search"
+    },
+    "reactiveForm":{
+        "title": "Case #101 Registration Form",
+        "required": "(required)",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "Email address",
+        "street1":"Address Line 1",
+        "st1":"Street and number or P.O. box.",
+        "st2":"Apartment, suite, unit, building, etc.",
+        "street2":"Address Line 2", 
+        "optional":"(optional)",
+        "city": "City/Town",
+        "province":"Province",
+        "postalCode": "Postal code",
+        "button": {
+            "submit": "Submit"
+        }
+    },
+    "errors":{
+        "firstName":{
+            "required":" First Name is required."
+        },
+        "lastName":{
+            "required":" Last Name is required."
+        },
+        "email":{
+            "valid":"Please enter a valid email address."
+        },
+        "street1":{
+            "required":"Street adderss is required."
+        },
+        "city":{
+            "required":" City/Town is required."
+        },
+        "province":{
+            "required":"Please select your province."
+        },
+        "postalCode":{
+            "format":"Postal code should be of format \"XXXXXX\"."
+        }
+    },
+
+    "footer":{
+        "accessibility": "Accessibility",
+        "privacy": "Privacy",
+        "contactUs": "Contact us",
+        "text": "King's Printer for Ontario,"
+    }
+}
